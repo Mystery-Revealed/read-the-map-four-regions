@@ -298,11 +298,11 @@
     <g id="regions" filter="url(#handdrawn)">
       <g class="region" data-region="mountains" role="button" tabindex="0"
          aria-label="Mountains and Basins region, far west Texas. Open its panel.">
-        <polygon points="52,344 241.9,328 255.6,424 338.2,475.2 272.2,470.1 230.9,504 167.6,484.2" fill="url(#pat-mountains)"/>
+        <polygon points="52,344 52,328 189.6,328 299.7,392 327.2,456 338.2,475.2 272.2,470.1 230.9,504 167.6,484.2" fill="url(#pat-mountains)"/>
       </g>
       <g class="region" data-region="plains" role="button" tabindex="0"
-         aria-label="Great Plains region, the high middle and Panhandle. Open its panel.">
-        <polygon points="241.9,40 354.7,40 354.7,168 338.2,264 327.2,328 241.9,328" fill="url(#pat-plains)"/>
+         aria-label="Great Plains region, the high middle, Panhandle, and Hill Country. Open its panel.">
+        <polygon points="241.9,40 354.7,40 354.7,168 338.2,264 327.2,328 327.2,340.8 505,340.8 510,388 528,432 485,487 360.2,497 338.2,475.2 327.2,456 299.7,392 189.6,328 241.9,328" fill="url(#pat-plains)"/>
       </g>
       <g class="region" data-region="northcentral" role="button" tabindex="0"
          aria-label="North Central Plains region. Open its panel.">
@@ -310,13 +310,13 @@
       </g>
       <g class="region" data-region="coastal" role="button" tabindex="0"
          aria-label="Coastal Plains region, the broad east and south. Open its panel.">
-        <polygon points="558.4,216 602.4,206.4 740,225.6 740,360 756.5,436.8 751,475.2 685,520 602.4,558.4 552.9,628.8 566.6,715.2 437.3,616 360.2,497 338.2,475.2 255.6,424 241.9,328 327.2,328 327.2,340.8 558.4,340.8" fill="url(#pat-coastal)"/>
+        <polygon points="558.4,216 602.4,206.4 740,225.6 740,360 756.5,436.8 751,475.2 685,520 602.4,558.4 552.9,628.8 566.6,715.2 437.3,616 360.2,497 485,487 528,432 510,388 505,340.8 558.4,340.8" fill="url(#pat-coastal)"/>
       </g>
     </g>
 
     <!-- crisp state outline over the regions -->
     <path id="stateOutline" fill="none" stroke="#4a3517" stroke-width="2.4" opacity="0.75" stroke-linejoin="round" pointer-events="none"
-          d="M241.9,40 L409.8,40 L409.8,164.2 L464.8,180.8 L519.8,206.4 L558.4,216 L602.4,206.4 L740,225.6 L740,360 L756.5,436.8 L751,475.2 L685,520 L602.4,558.4 L552.9,628.8 L566.6,715.2 L437.3,616 L360.2,497 L338.2,475.2 L272.2,470.1 L230.9,504 L167.6,484.2 L52,344 L241.9,328 Z"/>
+          d="M241.9,40 L409.8,40 L409.8,164.2 L464.8,180.8 L519.8,206.4 L558.4,216 L602.4,206.4 L740,225.6 L740,360 L756.5,436.8 L751,475.2 L685,520 L602.4,558.4 L552.9,628.8 L566.6,715.2 L437.3,616 L360.2,497 L338.2,475.2 L272.2,470.1 L230.9,504 L167.6,484.2 L52,344 L52,328 L241.9,328 Z"/>
 
     <!-- region name labels (decorative) -->
     <g aria-hidden="true">
@@ -324,8 +324,9 @@
       <text class="maplabel" x="150" y="434" font-size="14" text-anchor="middle">&amp; BASINS</text>
       <text class="maplabel" x="298" y="150" font-size="14" text-anchor="middle">GREAT</text>
       <text class="maplabel" x="298" y="166" font-size="14" text-anchor="middle">PLAINS</text>
-      <text class="maplabel" x="452" y="120" font-size="13" text-anchor="middle">NORTH CENTRAL</text>
-      <text class="maplabel" x="452" y="136" font-size="13" text-anchor="middle">PLAINS</text>
+      <text class="maplabel" x="450" y="240" font-size="13" text-anchor="middle">NORTH CENTRAL</text>
+      <text class="maplabel" x="450" y="256" font-size="13" text-anchor="middle">PLAINS</text>
+      <text class="maplabel" x="430" y="430" font-size="11" text-anchor="middle" opacity="0.75">HILL COUNTRY</text>
       <text class="maplabel" x="600" y="470" font-size="15" text-anchor="middle">COASTAL</text>
       <text class="maplabel" x="600" y="488" font-size="15" text-anchor="middle">PLAINS</text>
       <!-- sea + neighbour labels -->
@@ -345,8 +346,8 @@
     <!-- ===================== LAYER: RIVERS ===================== -->
     <g id="layer-rivers" class="layer" aria-label="Rivers layer">
       <g class="river-grp" data-kind="rivers" data-id="riogrande" role="button" tabindex="0" aria-label="Rio Grande. Tap for a fact.">
-        <path class="riverhit" d="M52,344 L167.6,484.2 L230.9,504 L272.2,470.1 L360.2,497 L437.3,616 L566.6,715.2"/>
-        <path class="river" d="M52,344 L167.6,484.2 L230.9,504 L272.2,470.1 L360.2,497 L437.3,616 L566.6,715.2"/>
+        <path class="riverhit" d="M52,344 L167.6,484.2 L230.9,504 L272.2,470.1 L338.2,475.2 L360.2,497 L437.3,616 L566.6,715.2"/>
+        <path class="river" d="M52,344 L167.6,484.2 L230.9,504 L272.2,470.1 L338.2,475.2 L360.2,497 L437.3,616 L566.6,715.2"/>
       </g>
       <g class="river-grp" data-kind="rivers" data-id="pecos" role="button" tabindex="0" aria-label="Pecos River. Tap for a fact.">
         <path class="riverhit" d="M189.6,328 L299.7,392 L327.2,456 L338.2,475.2"/>
@@ -372,7 +373,7 @@
         <text class="riverlabel" x="380" y="560" font-size="12" transform="rotate(52 380 560)">R&#237;o Grande</text>
         <text class="riverlabel" x="250" y="386" font-size="11">Pecos</text>
         <text class="riverlabel" x="500" y="356" font-size="11" transform="rotate(38 500 356)">Brazos</text>
-        <text class="riverlabel" x="560" y="470" font-size="11" transform="rotate(40 560 470)">Colorado</text>
+        <text class="riverlabel" x="386" y="318" font-size="11" transform="rotate(30 386 318)">Colorado</text>
         <text class="riverlabel" x="640" y="214" font-size="11">Red</text>
         <text class="riverlabel" x="760" y="380" font-size="11" transform="rotate(80 760 380)">Sabine</text>
       </g>
@@ -425,7 +426,7 @@
         living:"Fewer people live here than anywhere else in Texas, and farms only work because of irrigation — bringing in water through pipes and ditches.",
         img:"assets/region-mountains.jpg" },
       { id:"plains", name:"Great Plains",
-        land:"The Panhandle is a flat sea of grass sitting on top of the Cap Rock, a steep rocky cliff that lifts the land up high.",
+        land:"The Panhandle is a flat sea of grass sitting on top of the Cap Rock, a steep rocky cliff that lifts the land up high. This high land also reaches south through the rocky Hill Country.",
         climate:"The weather is dry and windy, with hot summers, cold winters, and big open skies.",
         cities:"Lubbock and Amarillo are the big cities up here on the high plains.",
         living:"People here raise cattle, grow cotton, and even harvest the wind — rows of giant wind turbines make electricity.",
@@ -453,20 +454,20 @@
         { id:"sabine",    name:"Sabine River", fact:"The Sabine flows through the Piney Woods and forms part of the eastern border with Louisiana." }
       ],
       cities: [
-        { id:"houston",   name:"Houston",     x:664.6, y:471.4, fact:"Houston, the biggest city in Texas, sits near the Gulf and is home to NASA's Mission Control." },
+        { id:"houston",   name:"Houston",     x:664.6, y:471.4, la:"start", lx:9, ly:-6, fact:"Houston, the biggest city in Texas, sits near the Gulf and is home to NASA's Mission Control." },
         { id:"sanantonio",name:"San Antonio", x:492.9, y:493.1, fact:"San Antonio grew up around old Spanish missions — including the most famous one of all, the Alamo." },
-        { id:"dallas",    name:"Dallas",      x:595.2, y:277.2, fact:"Dallas rises from the Blackland Prairie, where flat, rich black soil once made it cotton country." },
+        { id:"dallas",    name:"Dallas",      x:595.2, y:277.2, la:"start", lx:9, ly:-4, fact:"Dallas rises from the Blackland Prairie, where flat, rich black soil once made it cotton country." },
         { id:"austin",    name:"Austin",      x:534.2, y:438.7, fact:"Austin, the state capital, sits right where the Hill Country meets the plains, on the Colorado River." },
-        { id:"fortworth", name:"Fort Worth",  x:548.4, y:280.3, fact:"Fort Worth is called “Cowtown” because millions of cattle passed through it on the old trails." },
+        { id:"fortworth", name:"Fort Worth",  x:548.4, y:280.3, la:"end", lx:-10, ly:4, fact:"Fort Worth is called “Cowtown” because millions of cattle passed through it on the old trails." },
         { id:"elpaso",    name:"El Paso",     x:56.0,  y:344.0, fact:"El Paso sits in the far west mountain pass — it's closer to California than to Houston!" },
-        { id:"arlington", name:"Arlington",   x:567.8, y:281.2, fact:"Arlington, between Dallas and Fort Worth, is a sports giant with stadiums for the Cowboys and the Rangers." }
+        { id:"arlington", name:"Arlington",   x:567.8, y:281.2, ly:17, fact:"Arlington, between Dallas and Fort Worth, is a sports giant with stadiums for the Cowboys and the Rangers." }
       ],
       landmarks: [
         { id:"paloduro",      name:"Palo Duro Canyon", x:317.3, y:140.5, fact:"Palo Duro Canyon, “the Grand Canyon of Texas,” was carved by a fork of the Red River." },
         { id:"bigbend",       name:"Big Bend",         x:230.9, y:504.0, fact:"Big Bend is where the Rio Grande makes its giant U-turn, mixing canyons, desert, and mountains in one wild place." },
         { id:"guadalupepeak", name:"Guadalupe Peak",   x:142.3, y:334.4, fact:"Guadalupe Peak is the highest point in Texas, standing 8,751 feet tall." },
         { id:"galveston",     name:"Galveston Island", x:696.0, y:500.8, fact:"Galveston Island is a barrier island — a long sandy island that shields the coast — with a busy port and a history of hurricanes." },
-        { id:"alamo",         name:"The Alamo",        x:505.0, y:485.0, fact:"The Alamo in San Antonio began as a Spanish mission and became a famous battle site of the Texas Revolution." }
+        { id:"alamo",         name:"The Alamo",        x:505.0, y:485.0, la:"start", lx:8, ly:18, fact:"The Alamo in San Antonio began as a Spanish mission and became a famous battle site of the Texas Revolution." }
       ]
     },
     hints: {
@@ -490,9 +491,9 @@
       g.setAttribute("tabindex", "0");
       g.setAttribute("transform", "translate(" + c.x + "," + c.y + ")");
       g.setAttribute("aria-label", c.name + ", one of the big seven cities. Tap for a fact.");
-      var anchor = c.x < 120 ? "start" : "middle";
-      var lx = c.x < 120 ? 9 : 0;
-      var ly = c.x < 120 ? 4 : -10;
+      var anchor = c.la || (c.x < 120 ? "start" : "middle");
+      var lx = (c.lx !== undefined) ? c.lx : (c.x < 120 ? 9 : 0);
+      var ly = (c.ly !== undefined) ? c.ly : (c.x < 120 ? 4 : -10);
       g.innerHTML =
         '<circle class="hit" r="15" fill="transparent"></circle>' +
         '<circle class="glyph city-glyph" r="6"></circle>' +
@@ -510,9 +511,9 @@
       g.setAttribute("tabindex", "0");
       g.setAttribute("transform", "translate(" + m.x + "," + m.y + ")");
       g.setAttribute("aria-label", m.name + ", a Texas landmark. Tap for a fact.");
-      var anchor = m.x < 120 ? "start" : "middle";
-      var lx = m.x < 120 ? 11 : 0;
-      var ly = m.x < 120 ? 4 : -11;
+      var anchor = m.la || (m.x < 120 ? "start" : "middle");
+      var lx = (m.lx !== undefined) ? m.lx : (m.x < 120 ? 11 : 0);
+      var ly = (m.ly !== undefined) ? m.ly : (m.x < 120 ? 4 : -11);
       g.innerHTML =
         '<circle class="hit" r="15" fill="transparent"></circle>' +
         '<g class="glyph pulse"><path class="land-glyph" d="M0,-8 L7,7 L-7,7 Z"></path></g>' +
