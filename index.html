@@ -310,13 +310,13 @@
       </g>
       <g class="region" data-region="coastal" role="button" tabindex="0"
          aria-label="Coastal Plains region, the broad east and south. Open its panel.">
-        <polygon points="558.4,216 602.4,206.4 740,225.6 740,360 756.5,436.8 751,475.2 685,520 602.4,558.4 552.9,628.8 566.6,715.2 437.3,616 360.2,497 485,487 528,432 510,388 505,340.8 558.4,340.8" fill="url(#pat-coastal)"/>
+        <polygon points="558.4,216 602.4,206.4 740,225.6 740,360 756.5,436.8 751,475.2 685,520 602.4,558.4 552.9,628.8 566.6,715.2 543,719.5 507,709 457,676 437.3,616 360.2,497 485,487 528,432 510,388 505,340.8 558.4,340.8" fill="url(#pat-coastal)"/>
       </g>
     </g>
 
     <!-- crisp state outline over the regions -->
     <path id="stateOutline" fill="none" stroke="#4a3517" stroke-width="2.4" opacity="0.75" stroke-linejoin="round" pointer-events="none"
-          d="M241.9,40 L409.8,40 L409.8,164.2 L464.8,180.8 L519.8,206.4 L558.4,216 L602.4,206.4 L740,225.6 L740,360 L756.5,436.8 L751,475.2 L685,520 L602.4,558.4 L552.9,628.8 L566.6,715.2 L437.3,616 L360.2,497 L338.2,475.2 L272.2,470.1 L230.9,504 L167.6,484.2 L52,344 L52,328 L241.9,328 Z"/>
+          d="M241.9,40 L409.8,40 L409.8,164.2 L464.8,180.8 L519.8,206.4 L558.4,216 L602.4,206.4 L740,225.6 L740,360 L756.5,436.8 L751,475.2 L685,520 L602.4,558.4 L552.9,628.8 L566.6,715.2 L543,719.5 L507,709 L457,676 L437.3,616 L360.2,497 L338.2,475.2 L272.2,470.1 L230.9,504 L167.6,484.2 L52,344 L52,328 L241.9,328 Z"/>
 
     <!-- region name labels (decorative) -->
     <g aria-hidden="true">
@@ -331,7 +331,7 @@
       <text class="maplabel" x="600" y="488" font-size="15" text-anchor="middle">PLAINS</text>
       <!-- sea + neighbour labels -->
       <text class="maplabel sealabel" x="700" y="640" font-size="16" text-anchor="middle">G U L F</text>
-      <text class="maplabel sealabel" x="430" y="690" font-size="13" text-anchor="middle" transform="rotate(-16 430 690)">M &#201; X I C O</text>
+      <text class="maplabel sealabel" x="405" y="702" font-size="13" text-anchor="middle" transform="rotate(-16 405 702)">M &#201; X I C O</text>
     </g>
 
     <!-- compass -->
@@ -346,8 +346,8 @@
     <!-- ===================== LAYER: RIVERS ===================== -->
     <g id="layer-rivers" class="layer" aria-label="Rivers layer">
       <g class="river-grp" data-kind="rivers" data-id="riogrande" role="button" tabindex="0" aria-label="Rio Grande. Tap for a fact.">
-        <path class="riverhit" d="M52,344 L167.6,484.2 L230.9,504 L272.2,470.1 L338.2,475.2 L360.2,497 L437.3,616 L566.6,715.2"/>
-        <path class="river" d="M52,344 L167.6,484.2 L230.9,504 L272.2,470.1 L338.2,475.2 L360.2,497 L437.3,616 L566.6,715.2"/>
+        <path class="riverhit" d="M52,344 L167.6,484.2 L230.9,504 L272.2,470.1 L338.2,475.2 L360.2,497 L437.3,616 L457,676 L507,709 L543,719.5 L566.6,715.2"/>
+        <path class="river" d="M52,344 L167.6,484.2 L230.9,504 L272.2,470.1 L338.2,475.2 L360.2,497 L437.3,616 L457,676 L507,709 L543,719.5 L566.6,715.2"/>
       </g>
       <g class="river-grp" data-kind="rivers" data-id="pecos" role="button" tabindex="0" aria-label="Pecos River. Tap for a fact.">
         <path class="riverhit" d="M189.6,328 L299.7,392 L327.2,456 L338.2,475.2"/>
@@ -464,7 +464,7 @@
       ],
       landmarks: [
         { id:"paloduro",      name:"Palo Duro Canyon", x:317.3, y:140.5, fact:"Palo Duro Canyon, “the Grand Canyon of Texas,” was carved by a fork of the Red River." },
-        { id:"bigbend",       name:"Big Bend",         x:230.9, y:504.0, fact:"Big Bend is where the Rio Grande makes its giant U-turn, mixing canyons, desert, and mountains in one wild place." },
+        { id:"bigbend",       name:"Big Bend",         x:233.0, y:493.0, fact:"Big Bend is where the Rio Grande makes its giant U-turn, mixing canyons, desert, and mountains in one wild place." },
         { id:"guadalupepeak", name:"Guadalupe Peak",   x:142.3, y:334.4, fact:"Guadalupe Peak is the highest point in Texas, standing 8,751 feet tall." },
         { id:"galveston",     name:"Galveston Island", x:696.0, y:500.8, fact:"Galveston Island is a barrier island — a long sandy island that shields the coast — with a busy port and a history of hurricanes." },
         { id:"alamo",         name:"The Alamo",        x:505.0, y:485.0, la:"start", lx:8, ly:18, fact:"The Alamo in San Antonio began as a Spanish mission and became a famous battle site of the Texas Revolution." }
